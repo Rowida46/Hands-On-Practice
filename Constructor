@@ -1,0 +1,17 @@
+#include<iostream>
+#include <iostream>
+using namespace std;
+class Constructors {
+	public : 
+	Constructors (){
+	    cout<<"it's an instance of Constructors  <notice once calling this classes this will be prtint>";
+	}
+
+
+
+};
+int main(){
+    Constructors test;
+    
+
+}
