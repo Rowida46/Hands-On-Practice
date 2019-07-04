@@ -2,8 +2,23 @@
 #include <iostream>
 #include <windows.h>
 using namespace std;
+// to change colors
+/*1_____Blue                                       A______Light Green
+2_____Green                                    B______Light Aqua
+3_____Aqua                                      C______Light Red
+4_____Red                                        D______Light Purple
+5_____Purple                                   E______Light Yellow
+6_____Yellow                                   F______Bright White 
+7_____White
+8_____Gray
+9_____Light Blue
+0_____Black
+*/
+
+
+//Class 
 class shape {
-	public :
+	public : 
 	 void sh1 (int x){
 
 
