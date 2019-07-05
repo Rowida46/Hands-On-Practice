@@ -10,6 +10,8 @@ return n*factorial(n-1)	;
 
 }	
 int main(){
- cout<<factorial(4); 
+ int x;
+ cin>>x;
+ cout<<factorial(x); 
 
 }
