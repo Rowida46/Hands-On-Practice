@@ -4,7 +4,9 @@ int main(){
 int *x;
  x = new int ;
  *x = 90;
- cout<<*x<<endl;
+ 
+ 	// There is a special syntax to access the value of a variable using its address instead of its name
+cout<<*x<<endl;
 cout<<x<<endl<<&x<<endl<<"----------------Delet------------"<<endl;
 delete x;
 x = new int ;
