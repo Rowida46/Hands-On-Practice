@@ -1,18 +1,16 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
- void ntoone (int a){
- 	for (int i =1 ; i <=a ; i++)
- 	cout<<i<<" ";
- }
- void compute(int A , (*fun) (int ))
-	cout<<  (*fuc )(A ) ;
- 	
-int main()
-{
-	int n ;
-	cin>>n;
-		  
-		  compute(n , ntoone);
-	
-	
+int sum (int a, int b ){
+	return a+b ;
 }
+				//int (*fuc )(int , int )
+ 
+int comp ( int A , int B , int (*fuc )(int , int ) ){
+	return  (*fuc )(A , B ) ;
+ 
+}
+int main(){
+	int x,y;
+	cin>>x>>y;
+     cout<<comp(x,y,sum) ;
+	}
